@@ -5,4 +5,9 @@ public class User {
         System.out.println("你好 spring");
     }
 
+//    public static void main(String[] args) {
+//        User user = new User();
+//        user.add();
+//    }
+
 }
