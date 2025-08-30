@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestEmp {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("bean-ditest.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("bean-diarr.xml");
         Emp emp = (Emp)context.getBean("emp");
         emp.work();
     }
